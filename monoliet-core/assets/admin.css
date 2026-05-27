@@ -1,0 +1,43 @@
+/**
+ * Monoliet Core — Admin CSS
+ *
+ * Subtle admin branding for Monoliet-managed sites.
+ */
+
+/* Monoliet accent in admin bar */
+#wpadminbar {
+    background: #0f172a;
+}
+
+#wpadminbar .ab-top-menu > li:hover > .ab-item,
+#wpadminbar .ab-top-menu > li.hover > .ab-item {
+    background: #1e293b;
+}
+
+/* Admin footer styling */
+#footer-thankyou a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+#footer-thankyou a:hover {
+    color: #1d4ed8;
+}
+
+/* Clean up visual noise for editors */
+.post-type-team_member .page-title-action,
+.post-type-testimonial .page-title-action,
+.post-type-promotion .page-title-action,
+.post-type-portfolio_item .page-title-action {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #fff;
+}
+
+.post-type-team_member .page-title-action:hover,
+.post-type-testimonial .page-title-action:hover,
+.post-type-promotion .page-title-action:hover,
+.post-type-portfolio_item .page-title-action:hover {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+}

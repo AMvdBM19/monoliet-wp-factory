@@ -1,0 +1,151 @@
+{
+    "name": "WP Factory — Site Maintenance",
+    "nodes": [
+        {
+            "parameters": {
+                "rule": {
+                    "interval": [
+                        {
+                            "field": "cronExpression",
+                            "expression": "0 3 * * 1"
+                        }
+                    ]
+                }
+            },
+            "id": "trigger-weekly",
+            "name": "Weekly Trigger (Mon 03:00)",
+            "type": "n8n-nodes-base.scheduleTrigger",
+            "typeVersion": 1.2,
+            "position": [0, 0]
+        },
+        {
+            "parameters": {
+                "url": "=https://{{ $json.domain }}/wp-json/monoliet/v1/health",
+                "options": {
+                    "timeout": 15000
+                }
+            },
+            "id": "health-check",
+            "name": "Health Check",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [400, 0]
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "string": [
+                        {
+                            "value1": "={{ $json.wp_version }}",
+                            "operation": "isNotEmpty"
+                        }
+                    ]
+                }
+            },
+            "id": "check-healthy",
+            "name": "Is Healthy?",
+            "type": "n8n-nodes-base.if",
+            "typeVersion": 2,
+            "position": [600, 0]
+        },
+        {
+            "parameters": {
+                "assignments": {
+                    "assignments": [
+                        {
+                            "id": "status",
+                            "name": "status",
+                            "value": "healthy",
+                            "type": "string"
+                        },
+                        {
+                            "id": "checked_at",
+                            "name": "checked_at",
+                            "value": "={{ $now.toISO() }}",
+                            "type": "string"
+                        }
+                    ]
+                }
+            },
+            "id": "set-healthy",
+            "name": "Set Healthy",
+            "type": "n8n-nodes-base.set",
+            "typeVersion": 3.4,
+            "position": [800, -100]
+        },
+        {
+            "parameters": {
+                "assignments": {
+                    "assignments": [
+                        {
+                            "id": "status",
+                            "name": "status",
+                            "value": "unhealthy",
+                            "type": "string"
+                        },
+                        {
+                            "id": "checked_at",
+                            "name": "checked_at",
+                            "value": "={{ $now.toISO() }}",
+                            "type": "string"
+                        }
+                    ]
+                }
+            },
+            "id": "set-unhealthy",
+            "name": "Set Unhealthy",
+            "type": "n8n-nodes-base.set",
+            "typeVersion": 3.4,
+            "position": [800, 100]
+        }
+    ],
+    "connections": {
+        "Weekly Trigger (Mon 03:00)": {
+            "main": [
+                [
+                    {
+                        "node": "Health Check",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Health Check": {
+            "main": [
+                [
+                    {
+                        "node": "Is Healthy?",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Is Healthy?": {
+            "main": [
+                [
+                    {
+                        "node": "Set Healthy",
+                        "type": "main",
+                        "index": 0
+                    }
+                ],
+                [
+                    {
+                        "node": "Set Unhealthy",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "meta": {
+        "templateId": "monoliet-wp-maintenance",
+        "notes": "Base workflow for WP Factory site health monitoring. Import into n8n and configure per-client domain list. TODO: Add notification node (Slack/email) for unhealthy status."
+    }
+}

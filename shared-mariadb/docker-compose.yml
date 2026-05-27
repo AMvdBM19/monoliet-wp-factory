@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  mariadb:
+    image: mariadb:11
+    container_name: shared-mariadb
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD_FILE: /run/secrets/db_root_password
+    volumes:
+      - mariadb-data:/var/lib/mysql
+    networks:
+      - monoliet-network
+    secrets:
+      - db_root_password
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+volumes:
+  mariadb-data:
+    name: shared-mariadb-data
+
+networks:
+  monoliet-network:
+    external: true
+
+secrets:
+  db_root_password:
+    file: ./.db_root_password
