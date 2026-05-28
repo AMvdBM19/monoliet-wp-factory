@@ -45,9 +45,11 @@ export DB_NAME DB_USER DB_PASSWORD WP_ADMIN_PASS MONOLIET_API_KEY VPS_IP
 
 echo "==> Processing templates..."
 
+SUBST_VARS='${CLIENT_SLUG}${CLIENT_NAME}${CLIENT_DOMAIN}${DB_NAME}${DB_USER}${DB_PASSWORD}${WP_ADMIN_PASS}${MONOLIET_API_KEY}${VPS_IP}'
+
 for tpl in "$FACTORY_DIR/templates/"*.tpl; do
     filename="$(basename "$tpl" .tpl)"
-    envsubst < "$tpl" > "$CLIENT_DIR/$filename"
+    envsubst "$SUBST_VARS" < "$tpl" > "$CLIENT_DIR/$filename"
     echo "    Created: $filename"
 done
 
