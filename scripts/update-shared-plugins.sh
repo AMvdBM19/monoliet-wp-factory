@@ -29,7 +29,7 @@ for PLUGIN in $PLUGINS; do
         continue
     fi
 
-    DOWNLOAD_URL=$(echo "$PLUGIN_INFO" | grep -o '"download_link":"[^"]*"' | head -1 | cut -d'"' -f4)
+    DOWNLOAD_URL=$(echo "$PLUGIN_INFO" | grep -o '"download_link":"[^"]*"' | head -1 | cut -d'"' -f4 | sed 's/\\\//\//g')
     VERSION=$(echo "$PLUGIN_INFO" | grep -o '"version":"[^"]*"' | head -1 | cut -d'"' -f4)
 
     if [ -z "$DOWNLOAD_URL" ]; then
