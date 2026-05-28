@@ -22,7 +22,7 @@ for PLUGIN in $PLUGINS; do
     echo "--- $PLUGIN ---"
 
     API_URL="https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request[slug]=$PLUGIN"
-    PLUGIN_INFO=$(curl -sf "$API_URL" 2>/dev/null || echo "")
+    PLUGIN_INFO=$(curl -gsf "$API_URL" 2>/dev/null || echo "")
 
     if [ -z "$PLUGIN_INFO" ]; then
         echo "    WARNING: Could not fetch info for $PLUGIN. Skipping."
@@ -39,7 +39,7 @@ for PLUGIN in $PLUGINS; do
 
     echo "    Version: $VERSION"
     echo "    Downloading..."
-    curl -sf -o "$TEMP_DIR/$PLUGIN.zip" "$DOWNLOAD_URL"
+    curl -gsf -o "$TEMP_DIR/$PLUGIN.zip" "$DOWNLOAD_URL"
 
     if [ -f "$TEMP_DIR/$PLUGIN.zip" ]; then
         rm -rf "${SHARED_DIR:?}/$PLUGIN"
