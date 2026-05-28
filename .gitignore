@@ -1,0 +1,20 @@
+# Client sites (generated, each has its own repo)
+clients/*
+!clients/.gitkeep
+
+# Shared plugins (downloaded by script, not version controlled)
+shared-plugins/
+
+# Secrets
+shared-mariadb/.db_root_password
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

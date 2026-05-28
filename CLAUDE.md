@@ -83,6 +83,9 @@ This will:
 - **Other clients' directories** — Each client is isolated. Do not cross-modify.
 - **shared-mariadb** — Never rebuild. Stateful data. Only add databases.
 - **monoliet.cloud** at /opt/docker/wordpress/ — Separate project entirely.
+- **shared-mariadb/.db_root_password** — Contains MariaDB root password.
+  Must be created manually on VPS before first `docker compose up`.
+  NOT in git. Generate with: `openssl rand -base64 32 > shared-mariadb/.db_root_password`
 
 ## Theme Customization
 

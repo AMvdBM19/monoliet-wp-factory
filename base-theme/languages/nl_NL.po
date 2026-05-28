@@ -1,0 +1,448 @@
+# Dutch translation for Monoliet Starter theme.
+# Copyright (C) 2024 Monoliet.cloud
+# This file is distributed under the same license as the Monoliet Starter theme.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Monoliet Starter 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: Monoliet.cloud <info@monoliet.cloud>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: monoliet-starter\n"
+
+# Navigation
+msgid "Primary Menu"
+msgstr "Hoofdmenu"
+
+msgid "Footer Menu"
+msgstr "Voettekstmenu"
+
+msgid "Open menu"
+msgstr "Menu openen"
+
+msgid "Mobile menu"
+msgstr "Mobiel menu"
+
+msgid "Close menu"
+msgstr "Menu sluiten"
+
+# Site Settings page template
+msgid "Site Settings"
+msgstr "Site-instellingen"
+
+msgid "Use the fields below to configure site-wide settings."
+msgstr "Gebruik de onderstaande velden om sitebrede instellingen te configureren."
+
+# 404
+msgid "404"
+msgstr "404"
+
+msgid "Sorry, the page you are looking for could not be found."
+msgstr "Sorry, de pagina die je zoekt kon niet gevonden worden."
+
+msgid "Back to home"
+msgstr "Terug naar home"
+
+# Footer
+msgid "Website door Monoliet.cloud"
+msgstr "Website door Monoliet.cloud"
+
+msgid "Quick links"
+msgstr "Snelle links"
+
+# Sections
+msgid "Our Team"
+msgstr "Ons Team"
+
+msgid "Portfolio"
+msgstr "Portfolio"
+
+msgid "Promotions"
+msgstr "Acties"
+
+msgid "What Our Clients Say"
+msgstr "Wat Onze Klanten Zeggen"
+
+msgid "Contact"
+msgstr "Contact"
+
+# Contact fields
+msgid "Phone"
+msgstr "Telefoon"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+msgid "Contact information will appear here once configured in Site Settings."
+msgstr "Contactinformatie verschijnt hier zodra deze is ingesteld in Site-instellingen."
+
+# Team actions
+msgid "Book"
+msgstr "Boek"
+
+# Portfolio
+msgid "By %s"
+msgstr "Door %s"
+
+# Promotions
+msgid "Promo"
+msgstr "Actie"
+
+msgid "Valid %s \xe2\x80\x93 %s"
+msgstr "Geldig %s \xe2\x80\x93 %s"
+
+msgid "Valid until %s"
+msgstr "Geldig tot %s"
+
+# CPT — Team Members
+msgid "Team Members"
+msgstr "Teamleden"
+
+msgid "Team Member"
+msgstr "Teamlid"
+
+msgid "Add Team Member"
+msgstr "Teamlid toevoegen"
+
+msgid "Add New Team Member"
+msgstr "Nieuw teamlid toevoegen"
+
+msgid "Edit Team Member"
+msgstr "Teamlid bewerken"
+
+msgid "New Team Member"
+msgstr "Nieuw teamlid"
+
+msgid "View Team Member"
+msgstr "Teamlid bekijken"
+
+msgid "Search Team Members"
+msgstr "Teamleden zoeken"
+
+msgid "No team members found."
+msgstr "Geen teamleden gevonden."
+
+msgid "No team members in trash."
+msgstr "Geen teamleden in prullenbak."
+
+# Taxonomy — Specialties
+msgid "Specialties"
+msgstr "Specialiteiten"
+
+msgid "Specialty"
+msgstr "Specialiteit"
+
+msgid "Add Specialty"
+msgstr "Specialiteit toevoegen"
+
+# CPT — Promotions
+msgid "Promotion"
+msgstr "Actie"
+
+msgid "Add Promotion"
+msgstr "Actie toevoegen"
+
+msgid "Add New Promotion"
+msgstr "Nieuwe actie toevoegen"
+
+msgid "Edit Promotion"
+msgstr "Actie bewerken"
+
+msgid "New Promotion"
+msgstr "Nieuwe actie"
+
+msgid "View Promotion"
+msgstr "Actie bekijken"
+
+msgid "Search Promotions"
+msgstr "Acties zoeken"
+
+msgid "No promotions found."
+msgstr "Geen acties gevonden."
+
+msgid "No promotions in trash."
+msgstr "Geen acties in prullenbak."
+
+# CPT — Testimonials
+msgid "Testimonials"
+msgstr "Getuigenissen"
+
+msgid "Testimonial"
+msgstr "Getuigenis"
+
+msgid "Add Testimonial"
+msgstr "Getuigenis toevoegen"
+
+msgid "Add New Testimonial"
+msgstr "Nieuwe getuigenis toevoegen"
+
+msgid "Edit Testimonial"
+msgstr "Getuigenis bewerken"
+
+msgid "New Testimonial"
+msgstr "Nieuwe getuigenis"
+
+msgid "View Testimonial"
+msgstr "Getuigenis bekijken"
+
+msgid "Search Testimonials"
+msgstr "Getuigenissen zoeken"
+
+msgid "No testimonials found."
+msgstr "Geen getuigenissen gevonden."
+
+msgid "No testimonials in trash."
+msgstr "Geen getuigenissen in prullenbak."
+
+# CPT — Portfolio
+msgid "Portfolio Item"
+msgstr "Portfolio-item"
+
+msgid "Add Portfolio Item"
+msgstr "Portfolio-item toevoegen"
+
+msgid "Add New Portfolio Item"
+msgstr "Nieuw portfolio-item toevoegen"
+
+msgid "Edit Portfolio Item"
+msgstr "Portfolio-item bewerken"
+
+msgid "New Portfolio Item"
+msgstr "Nieuw portfolio-item"
+
+msgid "View Portfolio Item"
+msgstr "Portfolio-item bekijken"
+
+msgid "Search Portfolio"
+msgstr "Portfolio zoeken"
+
+msgid "No portfolio items found."
+msgstr "Geen portfolio-items gevonden."
+
+msgid "No portfolio items in trash."
+msgstr "Geen portfolio-items in prullenbak."
+
+# Taxonomy — Portfolio Categories
+msgid "Portfolio Categories"
+msgstr "Portfolio-categorieën"
+
+msgid "Portfolio Category"
+msgstr "Portfolio-categorie"
+
+msgid "Add Category"
+msgstr "Categorie toevoegen"
+
+# ACF — Homepage Hero
+msgid "Homepage Hero"
+msgstr "Homepage Hero"
+
+msgid "Heading"
+msgstr "Koptekst"
+
+msgid "Subheading"
+msgstr "Subtitel"
+
+msgid "CTA Button Text"
+msgstr "CTA-knoptekst"
+
+msgid "CTA Button URL"
+msgstr "CTA-knop URL"
+
+msgid "Secondary CTA Text"
+msgstr "Secundaire CTA-tekst"
+
+msgid "Secondary CTA URL"
+msgstr "Secundaire CTA URL"
+
+msgid "Background Image"
+msgstr "Achtergrondafbeelding"
+
+# ACF — Social Proof Bar
+msgid "Social Proof Bar"
+msgstr "Social Proof-balk"
+
+msgid "Rating Score"
+msgstr "Beoordelingsscore"
+
+msgid "Rating Source"
+msgstr "Beoordelingsbron"
+
+msgid "Metric 1 \xe2\x80\x94 Value"
+msgstr "Statistiek 1 \xe2\x80\x94 Waarde"
+
+msgid "Metric 1 \xe2\x80\x94 Label"
+msgstr "Statistiek 1 \xe2\x80\x94 Label"
+
+msgid "Metric 2 \xe2\x80\x94 Value"
+msgstr "Statistiek 2 \xe2\x80\x94 Waarde"
+
+msgid "Metric 2 \xe2\x80\x94 Label"
+msgstr "Statistiek 2 \xe2\x80\x94 Label"
+
+msgid "Metric 3 \xe2\x80\x94 Value"
+msgstr "Statistiek 3 \xe2\x80\x94 Waarde"
+
+msgid "Metric 3 \xe2\x80\x94 Label"
+msgstr "Statistiek 3 \xe2\x80\x94 Label"
+
+# ACF — CTA Banner
+msgid "CTA Banner"
+msgstr "CTA-banner"
+
+msgid "Subtext"
+msgstr "Subtekst"
+
+msgid "Button Text"
+msgstr "Knoptekst"
+
+msgid "Button URL"
+msgstr "Knop URL"
+
+# ACF — Site Settings fields
+msgid "Business Name"
+msgstr "Bedrijfsnaam"
+
+msgid "Tagline"
+msgstr "Slogan"
+
+msgid "City"
+msgstr "Stad"
+
+msgid "Postal Code"
+msgstr "Postcode"
+
+msgid "Google Maps Embed Code"
+msgstr "Google Maps insluitcode"
+
+msgid "Paste the full iframe embed code from Google Maps."
+msgstr "Plak de volledige iframe-insluitcode van Google Maps."
+
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+msgid "TikTok URL"
+msgstr "TikTok URL"
+
+msgid "WhatsApp Number"
+msgstr "WhatsApp-nummer"
+
+msgid "International format, e.g. 31612345678"
+msgstr "Internationaal formaat, bijv. 31612345678"
+
+msgid "Footer Credit"
+msgstr "Voettekst credit"
+
+msgid "Enable Language Switcher"
+msgstr "Taalwisselaar inschakelen"
+
+msgid "Default Language"
+msgstr "Standaardtaal"
+
+# ACF — Team Member Details
+msgid "Team Member Details"
+msgstr "Teamlidgegevens"
+
+msgid "Role / Job Title"
+msgstr "Functie / Titel"
+
+msgid "Comma-separated list"
+msgstr "Door komma's gescheiden lijst"
+
+msgid "Booking URL"
+msgstr "Boekings-URL"
+
+# ACF — Promotion Details
+msgid "Promotion Details"
+msgstr "Actiegegevens"
+
+msgid "Price"
+msgstr "Prijs"
+
+msgid "Valid From"
+msgstr "Geldig van"
+
+msgid "Valid Until"
+msgstr "Geldig tot"
+
+msgid "CTA URL"
+msgstr "CTA URL"
+
+msgid "CTA Text"
+msgstr "CTA-tekst"
+
+msgid "Conditions"
+msgstr "Voorwaarden"
+
+# ACF — Testimonial Details
+msgid "Testimonial Details"
+msgstr "Getuigenisgegevens"
+
+msgid "Rating (1\xe2\x80\x935)"
+msgstr "Beoordeling (1\xe2\x80\x935)"
+
+msgid "Source"
+msgstr "Bron"
+
+msgid "Date"
+msgstr "Datum"
+
+# ACF — Portfolio Details
+msgid "Portfolio Details"
+msgstr "Portfolio-details"
+
+msgid "Description"
+msgstr "Beschrijving"
+
+# ACF — Business Hours (added in Fix 7)
+msgid "Business Hours"
+msgstr "Openingstijden"
+
+msgid "Format: 09:00 - 18:00 or leave blank for Closed"
+msgstr "Formaat: 09:00 - 18:00 of laat leeg voor Gesloten"
+
+msgid "Monday"
+msgstr "Maandag"
+
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+msgid "Wednesday"
+msgstr "Woensdag"
+
+msgid "Thursday"
+msgstr "Donderdag"
+
+msgid "Friday"
+msgstr "Vrijdag"
+
+msgid "Saturday"
+msgstr "Zaterdag"
+
+msgid "Sunday"
+msgstr "Zondag"
+
+msgid "Closed"
+msgstr "Gesloten"
+
+# monoliet-core plugin strings
+msgid "Managed by"
+msgstr "Beheerd door"
+
+msgid "Book Now"
+msgstr "Boek Nu"

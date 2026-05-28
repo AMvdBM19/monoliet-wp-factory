@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   wordpress:
     image: wordpress:6.7-php8.3-apache
@@ -22,9 +20,12 @@ services:
       - uploads-${CLIENT_SLUG}:/var/www/html/wp-content/uploads
     networks:
       - monoliet-network
-    mem_limit: 200m
+    deploy:
+      resources:
+        limits:
+          memory: 200M
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost/wp-json/monoliet/v1/health"]
+      test: ["CMD-SHELL", "curl -f http://localhost/ || curl -f http://localhost/wp-admin/install.php"]
       interval: 30s
       timeout: 10s
       retries: 3

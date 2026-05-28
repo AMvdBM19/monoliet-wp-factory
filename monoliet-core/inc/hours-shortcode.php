@@ -5,8 +5,7 @@
  * Usage: [monoliet_hours]
  *
  * Reads hours from Site Settings ACF fields (hours_monday through hours_sunday).
- * TODO: hours fields need to be added to acf-fields.php per client, since business
- *       hours vary. Example fields: hours_monday = "09:00 - 18:00" (text).
+ * Fields are registered in base-theme/inc/acf-fields.php under group_site_settings.
  *
  * @package MonolietCore
  */

@@ -40,6 +40,9 @@ fi
 
 # Create database and user in shared MariaDB
 echo "==> Ensuring database and user exist..."
+# shared-mariadb uses MARIADB_ROOT_PASSWORD_FILE (Docker secrets), not MARIADB_ROOT_PASSWORD,
+# so printenv will always return empty. The fallback reading /run/secrets/db_root_password is
+# the correct path and will succeed when the secret is mounted.
 MARIADB_ROOT_PASS=$(docker exec shared-mariadb printenv MARIADB_ROOT_PASSWORD 2>/dev/null || echo "")
 if [ -z "$MARIADB_ROOT_PASS" ]; then
     MARIADB_ROOT_PASS=$(docker exec shared-mariadb cat /run/secrets/db_root_password 2>/dev/null || echo "")

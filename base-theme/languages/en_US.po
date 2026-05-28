@@ -1,0 +1,448 @@
+# English (United States) translation for Monoliet Starter theme.
+# Copyright (C) 2024 Monoliet.cloud
+# This file is distributed under the same license as the Monoliet Starter theme.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Monoliet Starter 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: Monoliet.cloud <info@monoliet.cloud>\n"
+"Language-Team: English <en@li.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: monoliet-starter\n"
+
+# Navigation
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+msgid "Open menu"
+msgstr "Open menu"
+
+msgid "Mobile menu"
+msgstr "Mobile menu"
+
+msgid "Close menu"
+msgstr "Close menu"
+
+# Site Settings page template
+msgid "Site Settings"
+msgstr "Site Settings"
+
+msgid "Use the fields below to configure site-wide settings."
+msgstr "Use the fields below to configure site-wide settings."
+
+# 404
+msgid "404"
+msgstr "404"
+
+msgid "Sorry, the page you are looking for could not be found."
+msgstr "Sorry, the page you are looking for could not be found."
+
+msgid "Back to home"
+msgstr "Back to home"
+
+# Footer
+msgid "Website door Monoliet.cloud"
+msgstr "Website door Monoliet.cloud"
+
+msgid "Quick links"
+msgstr "Quick links"
+
+# Sections
+msgid "Our Team"
+msgstr "Our Team"
+
+msgid "Portfolio"
+msgstr "Portfolio"
+
+msgid "Promotions"
+msgstr "Promotions"
+
+msgid "What Our Clients Say"
+msgstr "What Our Clients Say"
+
+msgid "Contact"
+msgstr "Contact"
+
+# Contact fields
+msgid "Phone"
+msgstr "Phone"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Address"
+msgstr "Address"
+
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+msgid "Contact information will appear here once configured in Site Settings."
+msgstr "Contact information will appear here once configured in Site Settings."
+
+# Team actions
+msgid "Book"
+msgstr "Book"
+
+# Portfolio
+msgid "By %s"
+msgstr "By %s"
+
+# Promotions
+msgid "Promo"
+msgstr "Promo"
+
+msgid "Valid %s \xe2\x80\x93 %s"
+msgstr "Valid %s \xe2\x80\x93 %s"
+
+msgid "Valid until %s"
+msgstr "Valid until %s"
+
+# CPT — Team Members
+msgid "Team Members"
+msgstr "Team Members"
+
+msgid "Team Member"
+msgstr "Team Member"
+
+msgid "Add Team Member"
+msgstr "Add Team Member"
+
+msgid "Add New Team Member"
+msgstr "Add New Team Member"
+
+msgid "Edit Team Member"
+msgstr "Edit Team Member"
+
+msgid "New Team Member"
+msgstr "New Team Member"
+
+msgid "View Team Member"
+msgstr "View Team Member"
+
+msgid "Search Team Members"
+msgstr "Search Team Members"
+
+msgid "No team members found."
+msgstr "No team members found."
+
+msgid "No team members in trash."
+msgstr "No team members in trash."
+
+# Taxonomy — Specialties
+msgid "Specialties"
+msgstr "Specialties"
+
+msgid "Specialty"
+msgstr "Specialty"
+
+msgid "Add Specialty"
+msgstr "Add Specialty"
+
+# CPT — Promotions
+msgid "Promotion"
+msgstr "Promotion"
+
+msgid "Add Promotion"
+msgstr "Add Promotion"
+
+msgid "Add New Promotion"
+msgstr "Add New Promotion"
+
+msgid "Edit Promotion"
+msgstr "Edit Promotion"
+
+msgid "New Promotion"
+msgstr "New Promotion"
+
+msgid "View Promotion"
+msgstr "View Promotion"
+
+msgid "Search Promotions"
+msgstr "Search Promotions"
+
+msgid "No promotions found."
+msgstr "No promotions found."
+
+msgid "No promotions in trash."
+msgstr "No promotions in trash."
+
+# CPT — Testimonials
+msgid "Testimonials"
+msgstr "Testimonials"
+
+msgid "Testimonial"
+msgstr "Testimonial"
+
+msgid "Add Testimonial"
+msgstr "Add Testimonial"
+
+msgid "Add New Testimonial"
+msgstr "Add New Testimonial"
+
+msgid "Edit Testimonial"
+msgstr "Edit Testimonial"
+
+msgid "New Testimonial"
+msgstr "New Testimonial"
+
+msgid "View Testimonial"
+msgstr "View Testimonial"
+
+msgid "Search Testimonials"
+msgstr "Search Testimonials"
+
+msgid "No testimonials found."
+msgstr "No testimonials found."
+
+msgid "No testimonials in trash."
+msgstr "No testimonials in trash."
+
+# CPT — Portfolio
+msgid "Portfolio Item"
+msgstr "Portfolio Item"
+
+msgid "Add Portfolio Item"
+msgstr "Add Portfolio Item"
+
+msgid "Add New Portfolio Item"
+msgstr "Add New Portfolio Item"
+
+msgid "Edit Portfolio Item"
+msgstr "Edit Portfolio Item"
+
+msgid "New Portfolio Item"
+msgstr "New Portfolio Item"
+
+msgid "View Portfolio Item"
+msgstr "View Portfolio Item"
+
+msgid "Search Portfolio"
+msgstr "Search Portfolio"
+
+msgid "No portfolio items found."
+msgstr "No portfolio items found."
+
+msgid "No portfolio items in trash."
+msgstr "No portfolio items in trash."
+
+# Taxonomy — Portfolio Categories
+msgid "Portfolio Categories"
+msgstr "Portfolio Categories"
+
+msgid "Portfolio Category"
+msgstr "Portfolio Category"
+
+msgid "Add Category"
+msgstr "Add Category"
+
+# ACF — Homepage Hero
+msgid "Homepage Hero"
+msgstr "Homepage Hero"
+
+msgid "Heading"
+msgstr "Heading"
+
+msgid "Subheading"
+msgstr "Subheading"
+
+msgid "CTA Button Text"
+msgstr "CTA Button Text"
+
+msgid "CTA Button URL"
+msgstr "CTA Button URL"
+
+msgid "Secondary CTA Text"
+msgstr "Secondary CTA Text"
+
+msgid "Secondary CTA URL"
+msgstr "Secondary CTA URL"
+
+msgid "Background Image"
+msgstr "Background Image"
+
+# ACF — Social Proof Bar
+msgid "Social Proof Bar"
+msgstr "Social Proof Bar"
+
+msgid "Rating Score"
+msgstr "Rating Score"
+
+msgid "Rating Source"
+msgstr "Rating Source"
+
+msgid "Metric 1 \xe2\x80\x94 Value"
+msgstr "Metric 1 \xe2\x80\x94 Value"
+
+msgid "Metric 1 \xe2\x80\x94 Label"
+msgstr "Metric 1 \xe2\x80\x94 Label"
+
+msgid "Metric 2 \xe2\x80\x94 Value"
+msgstr "Metric 2 \xe2\x80\x94 Value"
+
+msgid "Metric 2 \xe2\x80\x94 Label"
+msgstr "Metric 2 \xe2\x80\x94 Label"
+
+msgid "Metric 3 \xe2\x80\x94 Value"
+msgstr "Metric 3 \xe2\x80\x94 Value"
+
+msgid "Metric 3 \xe2\x80\x94 Label"
+msgstr "Metric 3 \xe2\x80\x94 Label"
+
+# ACF — CTA Banner
+msgid "CTA Banner"
+msgstr "CTA Banner"
+
+msgid "Subtext"
+msgstr "Subtext"
+
+msgid "Button Text"
+msgstr "Button Text"
+
+msgid "Button URL"
+msgstr "Button URL"
+
+# ACF — Site Settings fields
+msgid "Business Name"
+msgstr "Business Name"
+
+msgid "Tagline"
+msgstr "Tagline"
+
+msgid "City"
+msgstr "City"
+
+msgid "Postal Code"
+msgstr "Postal Code"
+
+msgid "Google Maps Embed Code"
+msgstr "Google Maps Embed Code"
+
+msgid "Paste the full iframe embed code from Google Maps."
+msgstr "Paste the full iframe embed code from Google Maps."
+
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+msgid "TikTok URL"
+msgstr "TikTok URL"
+
+msgid "WhatsApp Number"
+msgstr "WhatsApp Number"
+
+msgid "International format, e.g. 31612345678"
+msgstr "International format, e.g. 31612345678"
+
+msgid "Footer Credit"
+msgstr "Footer Credit"
+
+msgid "Enable Language Switcher"
+msgstr "Enable Language Switcher"
+
+msgid "Default Language"
+msgstr "Default Language"
+
+# ACF — Team Member Details
+msgid "Team Member Details"
+msgstr "Team Member Details"
+
+msgid "Role / Job Title"
+msgstr "Role / Job Title"
+
+msgid "Comma-separated list"
+msgstr "Comma-separated list"
+
+msgid "Booking URL"
+msgstr "Booking URL"
+
+# ACF — Promotion Details
+msgid "Promotion Details"
+msgstr "Promotion Details"
+
+msgid "Price"
+msgstr "Price"
+
+msgid "Valid From"
+msgstr "Valid From"
+
+msgid "Valid Until"
+msgstr "Valid Until"
+
+msgid "CTA URL"
+msgstr "CTA URL"
+
+msgid "CTA Text"
+msgstr "CTA Text"
+
+msgid "Conditions"
+msgstr "Conditions"
+
+# ACF — Testimonial Details
+msgid "Testimonial Details"
+msgstr "Testimonial Details"
+
+msgid "Rating (1\xe2\x80\x935)"
+msgstr "Rating (1\xe2\x80\x935)"
+
+msgid "Source"
+msgstr "Source"
+
+msgid "Date"
+msgstr "Date"
+
+# ACF — Portfolio Details
+msgid "Portfolio Details"
+msgstr "Portfolio Details"
+
+msgid "Description"
+msgstr "Description"
+
+# ACF — Business Hours (added in Fix 7)
+msgid "Business Hours"
+msgstr "Business Hours"
+
+msgid "Format: 09:00 - 18:00 or leave blank for Closed"
+msgstr "Format: 09:00 - 18:00 or leave blank for Closed"
+
+msgid "Monday"
+msgstr "Monday"
+
+msgid "Tuesday"
+msgstr "Tuesday"
+
+msgid "Wednesday"
+msgstr "Wednesday"
+
+msgid "Thursday"
+msgstr "Thursday"
+
+msgid "Friday"
+msgstr "Friday"
+
+msgid "Saturday"
+msgstr "Saturday"
+
+msgid "Sunday"
+msgstr "Sunday"
+
+msgid "Closed"
+msgstr "Closed"
+
+# monoliet-core plugin strings
+msgid "Managed by"
+msgstr "Managed by"
+
+msgid "Book Now"
+msgstr "Book Now"
